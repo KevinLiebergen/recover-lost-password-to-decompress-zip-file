@@ -29,5 +29,4 @@ with zipfile.ZipFile(path_file, "r") as archive:
             except (RuntimeError, zlib.error, zipfile.BadZipfile):
                 pass
                     
-if found is False:
-    print("Password not found")
+if found is False: print("Password not found")
